@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    
+}
+
+.blue_img{
+    position: relative;
+    z-index: -1;
+}
+/* لحد قبل الجمله */
+header {
+    display: flex;
+    margin-top: -470px;
+    justify-content: space-between;
+
+}
+
+header .header_leftdiv {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.header_leftdiv img {
+    margin-left: -30px;
+    margin-top: 40px;
+}
+
+.header_leftdiv a {
+    margin-right: 35px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.rightdiv_a{
+    margin-left: 5px;
+}
+header div a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+.header_rightdiv {
+    margin-right:120px;
+    margin-top: 40px;
+
+}
+
+.header_rightdiv button {
+    height: 30px;
+    border-radius: 20px;
+    margin-right: -20px;
+    border: 0;
+    padding-left: 26px;
+    padding-right: 10px;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.leftdiv_a {
+    padding-left: 5px;
+}
+
+/* بداية الجملة */
+.sec1 {
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+}
+
+.sec1_right {
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+.sec1_right .sec1r_1stimg {
+    margin-top: -180px;
+    margin-left: -200px;
+    position: relative;
+    z-index: 1;
+}
+
+.sec1_left {
+    margin-top: -50px;
+    margin-left: 90px;
+}
+
+.sec1_left p {
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.sec2{
+    /* flex-direction: column; */
+    display: flex;
+    justify-content: flex-end;
+}
+.man_div{
+    position: absolute;
+    right: 230px;
+    bottom: 250px;
+    z-index: 1;
+}
+.cloud_div{
+    position: absolute;
+    bottom: 125px;
+    z-index:2 ;
+    right: 140px;
+}
+.waves_div{
+    position: absolute;
+    left: -230px;
+    bottom: 80px;
+    z-index: 3;
+}
+.container{
+    margin-top: 5px;
+    margin-left: 300px;
+    position: relative;
+    /* top: -100px; */
+    text-align: center;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+}
+.container .path_div{
+    position: relative;
+    left: -10%;
+    
+}
+.bike_div{
+position: absolute;
+bottom:45%;
+left:-23%;
+
+
+}
+.watch_div{
+position: absolute;
+
+left: 24%;
+margin-top: 240px;
+}
+.percent_div{
+position: absolute;
+
+left: 58%;
+margin-top: 510px;
+
+}
+.container div h5 {
+    font-size: 17px;
+    color: rgb(128, 127, 127);
+    margin-top: -2px;
+}
+.container div p {
+    color: rgb(165, 165, 165);
+    font-size: 15px;
+    margin-top: -10px;
+}
+.div_kudzoka{
+    margin-left: 80px;
+    margin-top: -40px;
+    position: relative;
+}
+.kudzoka_h5{
+    position: absolute;
+    left: 12%;
+    top: 173%;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+/* التلت صور ال قبل البنفسجي */
+
+.sec3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+
+.sec3 div h5 , p {
+    text-align: center;
+    margin-top: -10px;
+    
+}
+
+footer{
+background-image: url(./images/omrann.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 90vh;
+background-position: center;
+margin-top: -160px;
+position: relative;
+bottom: -10px;
+}
+.footsec{
+    display: flex;
+    position: absolute;
+    top: 260px;
+}
+.footright{
+    position: absolute;
+    left: 650px;
+    top: -74px;
+}
+.footimg{
+    position: absolute;
+    top: -100px;
+}
+.footleft{
+    position: absolute;
+    display: flex;
+    margin-left: 60px;
+    gap: 15px;
+    top: 100px;
+}
+.appstore{
+    background-color: white;
+    width: 120px;
+    height: 45px;
+    border-radius:15px ;
+}
+.playstore{
+    background-color: white;
+    width: 120px;
+    height: 45px;
+    border-radius:15px ;
+}
+/* .appstore h4 {
+    position: absolute;
+    top: -10px;
+    left: 45px;
+} */
+.apple{
+    position: absolute;
+    top: -8px;
+    left: 45px;
+    text-decoration: none;
+    color: rgb(14, 14, 14); 
+}
+.android{
+    position: absolute;
+    top: -8px;
+    left: 181px;
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+.img_apple{
+    position: absolute;
+    left:10px;
+    top: 3px;
+    
+}
+.img_android{
+    position: absolute;
+    right:80px ;
+    top: 5px;
+    
+}
+i{
+    font-size: 40px;
+    color: white;
+}
+.icons{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 190px;
+    gap: 10px;
+
+}
+.links{
+    position: absolute;
+    display: flex;
+    margin-top: 270px ;
+    margin-left: 55px;
+    gap: 10px;
+;
+    
+}
+.links a {
+    text-decoration: none;
+    color:white;
+    width: 100px;
+    font-size: 19px;
+}
