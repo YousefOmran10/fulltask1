@@ -10,10 +10,12 @@ body {
     z-index: -1;
 }
 /* لحد قبل الجمله */
-header {
+.nav {
+    
     display: flex;
     margin-top: -470px;
     justify-content: space-between;
+
 
 }
 
@@ -21,6 +23,8 @@ header .header_leftdiv {
     display: flex;
     align-items: center;
     margin-left: 80px;
+    width:600px;
+    margin-top: 10px;
 }
 
 .header_leftdiv img {
@@ -32,6 +36,7 @@ header .header_leftdiv {
     margin-right: 35px;
     margin-left: 20px;
     margin-top: 30px;
+    
 }
 
 .rightdiv_a{
@@ -44,8 +49,11 @@ header div a {
 }
 
 .header_rightdiv {
-    margin-right:120px;
+    position: absolute;
+    top: -10px;
+    margin-left:1100px;
     margin-top: 40px;
+    cursor: pointer;
 
 }
 
@@ -65,7 +73,24 @@ header div a {
     padding-left: 5px;
 }
 
-/* بداية الجملة */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+/* !##########################333 */
+/*  first sectionnnn*/
 .sec1 {
     display: flex;
     margin-top: 130px;
@@ -284,6 +309,7 @@ i{
 ;
     
 }
+
 .links a {
     text-decoration: none;
     color:white;
